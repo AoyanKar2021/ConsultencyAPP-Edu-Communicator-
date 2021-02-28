@@ -1,0 +1,332 @@
+
+/* ==================Required Data =============
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+COLOR:
+----------------------
+Moon Yellow :#f4c613
+Grey        :#212226
+White Smoke :#f4f4f4
+White       :#fff
+Black       :#000
+----------------------
+
+
+
+
+================================================ */
+.file-field.medium .file-path-wrapper {
+height: 3rem; }
+.file-field.medium .file-path-wrapper .file-path {
+height: 2.8rem; }
+.bg{
+	background: #2b5667bd;
+}
+.cardheader {
+    background: #353535f0;;
+    color: #ccc9c9;
+}
+.s{
+	clip-path: polygon(50% 0%, 100% 0, 100% 100%, 48% 96%, 0 100%, 0 0);
+	clip-path: polygon(50% 0%, 100% 0, 100% 100%, 49% 95%, 0 100%, 0 0);
+}
+.shape{
+
+clip-path: polygon(50% 0%, 100% 0, 100% 87%, 62% 96%, 24% 91%, 0 95%, 0 0);
+}
+html,body{
+   height: 100%;
+}
+body{
+    color: #212226;
+    
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px; 
+    
+}
+
+
+
+/* Navigation */
+
+.navigation {
+    background: red;
+    box-shadow: 0px 2px 4px #959ba0;
+}
+.nav-link{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 100;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #f4c613;
+    transition: all .5s;
+}
+span.signin {
+    margin-right: 7px;
+}
+
+/* 
+#Background_Video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+     transform: translateX(-50%) translateY(-50%); 
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height: auto;
+    z-index: -1;
+    background: url("../Image/img3.jpg") no-repeat;
+     background-size: cover;
+   
+    
+} */
+#Home_Overlay {
+    background: rgba(0, 0, 0, 0.7);
+    /* height: 100vh; */
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    left: 0;
+    width: 100vh;
+}
+
+/* Home Section */
+#Home {
+    height: 100%;
+    overflow: hidden;
+    background: #2b5667bd;
+}
+/* Home Title */
+#home_Title{
+    display: table;
+    width: 100%;
+    height: 100%;
+ 
+    z-index: 1;
+    overflow: hidden;
+}
+#home_title_content
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home_heading h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+    display: inline-block;
+    font-size: 56px;
+    
+    letter-spacing: 0px;
+}
+.home_heading {
+    padding: 0px;
+    display: inline-block;
+}
+.home_heading span {
+    color: #f4c613;
+    font-weight: 600;
+   
+}
+#home_Title ,.and{
+    z-index: -1;
+}
+.home_details p {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/* ==================Button================ 
+   ========================================*/
+.btn_Reguler{
+    padding: 12px 46px 12px 46px;
+    border-radius: 28px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    transition: all .5s;
+    
+}
+.Register_Btn {
+    border: 1px solid #FFF;
+    color: #fff;
+ }
+ .logoutBtn{
+ 	padding: 12px 46px 12px 46px;
+    border-radius: 28px;
+    
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    transition: all .5s;
+ 	font-size: 20px;
+  	border: 1px solid #FFF;
+    color: #fff;
+ }
+ a.logoutBtn:hover,
+a.logoutBtn:focus{
+    background:  #f4c613;;
+    
+    color: #35351d;
+    border: 1px solid #f4c613;
+    
+}
+a.Register_Btn:hover,
+a.Register_Btn:focus{
+    background:  #f4c613;;
+    color: #FFFFFF;
+    border: 1px solid #f4c613;
+    
+}
+/* ==================Arrow================ 
+   ========================================*/
+   #about a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-size: 32px;
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    font-weight: 100;
+}
+/*  */
+#myModal{
+    
+}
+/* Modal Swotch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 39px;
+    height: 22px;
+    left: 14px;
+}
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: -1px;
+    left: -14px;
+    right: 0;
+    bottom: -1px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+  input:checked + .slider {
+    background-color: #f4c613;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f4c613;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  small.role {
+    float: right;
+}
+/*  */
+.Modal_Title h2 {
+    color: #7c8486;
+}
+button#singlebutton {
+    width: 100px;
+    height: 38px;
+    background: #fffffe;
+    outline: 0;
+    border: 1px solid #e8e2e2;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    color: #f4c613;
+    transition: all .5s;
+}
+button#singlebutton:hover,
+button#singlebutton:after {
+    box-shadow: 1px 3px 6px;
+    
+}
+a.forgetPassword {
+    text-decoration: none;
+    color: darkgray;
+}
+a.forgetPassword:hover, a.forgetPassword:after {
+    color: #71716e;
+}
+.content {
+    border-top: 3px outset #f4c613;
+    border-radius: 6px;
+    background: #a59f9f00;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.modal-content {
+    background: #fcfdfffa;
+    border-radius: 5px;
+    /* background: #fcfdff1a;
+    border-radius: 5px; */
+}
+
+.modal-dialog.regbody {
+    width: 100%;
+    min-width: 90%;
+    padding: 0px;
+    box-shadow: 1px -5px 40px #100e0e;
+}

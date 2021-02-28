@@ -1,0 +1,122 @@
+.shape {
+    clip-path: polygon(22% 0%, 100% 0, 100% 90%, 59% 100%, 29% 97%, 0 100%, 0 0);
+}
+
+
+
+.OFScrean {
+    height: 100vh;
+    background: #0e0d0d;
+    font-size: 20px;
+    padding: 30px 5px;
+    transition: 0.35s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+ width: 380px; 
+}
+.listItem {
+    padding: 0px 12px;
+}
+.OverLay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #65778ab5;
+    cursor: pointer;
+    z-index: 5;
+    transition: all ease 0.25s;
+    display: none;
+}
+
+.OFScrean li i {
+    color: azure;
+font-weight: bold;
+
+}
+.OFScreanIcon{
+    z-index: 4;
+}
+.OFScrean p {
+    display: inline-block;
+    padding-left: 20px;
+    color: #b79f9f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.MainContent {
+    background: #387396;
+    height: 100vh;
+    transition: margin-left 0.5s;
+    margin-left: 60px;
+  
+    position: relative;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+.MainContent a {
+    float: left;
+    color: white;
+    border-radius: 9%;
+    position: sticky;
+    top: 18px;
+    left: 50px;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.timeline img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/*  ---------------------------------------------------------------*/
+.overlay {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    left: 0;
+    top: 0;
+  
+     background-color: #212529e0; 
+     overflow-x: hidden;
+     transition: 0.5s; 
+     z-index: 152;
+    height: 100vh; 
+     display: flex;  
+     
+    justify-content: center;
+    align-items: center; 
+
+
+    
+} 
+
+.overlay a {
+   
+    text-decoration: none;
+    font-size: 36px;
+    color: #decfcf;
+    position: absolute;
+    top: 2px;
+    right: 22px;
+}
+.overlay-content {
+    position: relative;
+    width: 600px;
+}
+  
+ 
